@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To clear and input nama textfield</description>
+   <name>Input Nama</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bfb67008-5a20-43e0-85f6-c25c3550b9a8</testCaseGuid>
+</TestCaseEntity>
