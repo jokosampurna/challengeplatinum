@@ -23,15 +23,15 @@ WebUI.callTestCase(findTestCase('Page/User Register/Click Daftar Disini'), [:], 
 
 WebUI.callTestCase(findTestCase('Page/User Register/Verify Content'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Page/User Register/Input Nama'), [('nama') : 'John'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Page/User Register/Input Nama'), [('nama') : 'Bagas'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Page/User Register/Input Email'), [('email') : 'testcase'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Page/User Register/Input Email'), [('email') : 'timaweb01@yopmail.com'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Page/User Register/Input Password'), [('password') : '1234'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Page/User Register/Input Password'), [('password') : 'student1234'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Page/User Register/Click Daftar'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Page/User Register/Verify email'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Page/User Register/verify email already exists'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
 
