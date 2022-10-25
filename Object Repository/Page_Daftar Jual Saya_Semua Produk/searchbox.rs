@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Profile_form-control cari-produk</name>
+   <name>searchbox</name>
    <tag></tag>
    <elementGuidId>74f528bb-e51c-4f27-a222-9c468a67a943</elementGuidId>
    <selectorCollection>

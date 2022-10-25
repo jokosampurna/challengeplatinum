@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_</name>
+   <name>button_HomePage</name>
    <tag></tag>
    <elementGuidId>eb99fa16-fc82-45b5-b1b6-21a681f5d014</elementGuidId>
    <selectorCollection>
