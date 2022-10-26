@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Log Out</name>
    <tag></tag>
-   <elementGuidId>0a7031a4-375b-4f63-8638-f6a9acd4e1b2</elementGuidId>
+   <elementGuidId>2ace7d56-aee5-4d30-bbcf-15766d8fd8ca</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>114d7863-36b3-44da-a2bc-f94df557a30c</webElementGuid>
+      <webElementGuid>eae5e277-21b1-4b55-bab4-2ef0a455f6a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>dropdown-item btn</value>
-      <webElementGuid>a968810a-c2f8-463b-b8b8-5368be548a23</webElementGuid>
+      <webElementGuid>79152a0f-e7d6-4bf0-9774-2ca355889e09</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Log Out</value>
-      <webElementGuid>5713f168-f584-4fff-8dc1-bdba6e341895</webElementGuid>
+      <webElementGuid>aa342375-800a-461c-9b78-a272111330d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navbarText&quot;)/ul[@class=&quot;navbar-nav me-auto mb-2 mb-lg-0&quot;]/li[@class=&quot;dropdown show&quot;]/div[@class=&quot;dropdown-menu dropdown-menu-right show&quot;]/button[@class=&quot;dropdown-item btn&quot;]</value>
-      <webElementGuid>d111f188-6c5f-4a17-9d55-a3acffea6093</webElementGuid>
+      <webElementGuid>434d30f2-a7dc-452c-bf60-3ee0075f7d9c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbarText']/ul/li[3]/div/button</value>
-      <webElementGuid>1a1b6788-d7c3-4fea-9322-7ac66b8d4b35</webElementGuid>
+      <webElementGuid>5e140e5c-b141-4a53-a145-1808cde711d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[2]/following::button[1]</value>
-      <webElementGuid>16bd403a-f909-4d53-96a3-ecd710064bc2</webElementGuid>
+      <webElementGuid>28803746-5086-437f-b981-fe5d6a83ecba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Log Out'])[1]/following::button[2]</value>
-      <webElementGuid>ba378f8d-4f05-4480-806a-f525ab16a07d</webElementGuid>
+      <webElementGuid>19a6eb85-0a32-489e-9ea4-d9ae806181e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bulan Ramadan Banyak Diskon!'])[1]/preceding::button[1]</value>
-      <webElementGuid>a4b5d492-b548-4120-b718-1eb87b29a3db</webElementGuid>
+      <webElementGuid>cedae538-e972-46eb-805f-baf8a77c6f56</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Diskon Hingga 60%'])[1]/preceding::button[1]</value>
-      <webElementGuid>7e9e043c-bc53-4a76-a621-2be010c20f9a</webElementGuid>
+      <webElementGuid>7a79379c-d965-4e5a-8b33-25667c5391f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/div/button</value>
-      <webElementGuid>17db9c6e-d5f5-4b16-86e9-82eb8620d1de</webElementGuid>
+      <webElementGuid>6b6bbd56-0d22-4aba-a978-b7c00ef2a6f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Log Out' or . = 'Log Out')]</value>
-      <webElementGuid>e984c748-20d4-428b-abc3-be6b1b31d0e0</webElementGuid>
+      <webElementGuid>3d547460-0d74-457d-9ac8-43a5eddb37be</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

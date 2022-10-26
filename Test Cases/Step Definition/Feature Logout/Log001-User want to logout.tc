@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Logout</name>
+   <name>Log001-User want to logout</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b046a69d-33cb-4a0d-a5c1-4dc98eb4acde</testCaseGuid>
+   <testCaseGuid>35ec6efd-b8da-487d-94f5-fa333d044eec</testCaseGuid>
 </TestCaseEntity>

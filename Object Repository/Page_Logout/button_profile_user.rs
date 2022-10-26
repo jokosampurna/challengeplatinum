@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Log Out_user</name>
+   <name>button_profile_user</name>
    <tag></tag>
-   <elementGuidId>2e012010-55a2-4951-8999-395147bae0ab</elementGuidId>
+   <elementGuidId>b3996267-7ecb-49ab-948c-438321951c15</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -14,7 +14,7 @@
          <value>#user</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c69ef8cd-0539-44dc-94d9-22ff13c5d899</webElementGuid>
+      <webElementGuid>c8027892-0366-4021-982b-5aebd901bef6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>user</value>
-      <webElementGuid>903d6ccd-17e7-4f5f-8f23-e59f7c899a8a</webElementGuid>
+      <webElementGuid>244ef8bc-05f8-463e-9993-63b1fa104eb1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,15 +38,15 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>1603a8da-739a-476e-9868-911e1fd7c845</webElementGuid>
+      <webElementGuid>7e1fd4bf-784e-4767-b389-9aa2513cf7a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>btn btn-link</value>
-      <webElementGuid>6d810773-2ab7-4ff3-b3ec-5ed94e429f2a</webElementGuid>
+      <webElementGuid>b0cdb287-8db6-4c04-89e8-86c5dd690282</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>dropdown</value>
-      <webElementGuid>7ff47272-4959-48cb-908e-f3351295ce6c</webElementGuid>
+      <webElementGuid>04eb583e-f735-426d-b52e-8758d3e34697</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>data-display</name>
       <type>Main</type>
       <value>static</value>
-      <webElementGuid>efe20c52-b726-42cb-b2e7-cb5aba877bda</webElementGuid>
+      <webElementGuid>f39e46d0-05c9-45a0-a8bc-c965a31d823b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,15 +70,15 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>f1dcc20c-b84c-46c0-a391-7674b0a7a7d0</webElementGuid>
+      <webElementGuid>54cb41d4-e127-4c14-9b04-c8cbcc7ee307</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;user&quot;)</value>
-      <webElementGuid>b93b32aa-7297-4530-afdb-2b69d9e619a9</webElementGuid>
+      <webElementGuid>337fa66d-59f0-4486-90ec-78e6cd0ccdb4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='user']</value>
-      <webElementGuid>eddb7e68-f0f0-4307-8d82-d78dc365ea6f</webElementGuid>
+      <webElementGuid>8e268630-6af4-47fe-b212-87998caa1d98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbarText']/ul/li[3]/button</value>
-      <webElementGuid>c7ccddd7-a6d9-4062-b2d7-d503646a7e58</webElementGuid>
+      <webElementGuid>2349778b-ae03-4bcd-b522-2a31636e2bbf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Log Out'])[1]/following::button[1]</value>
-      <webElementGuid>b0b3c933-849b-427e-8c03-94cae44a80ae</webElementGuid>
+      <webElementGuid>1b36cfc5-4022-4d1e-a570-2c8cf5ba6e02</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[1]/following::button[2]</value>
-      <webElementGuid>d6fe08f0-4dd7-4396-b80f-c5f38f630ad6</webElementGuid>
+      <webElementGuid>5a780426-9688-4bf8-abc1-05696d514267</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[2]/preceding::button[1]</value>
-      <webElementGuid>c6e4fad9-eef4-49a9-a72f-eed2b3f14d17</webElementGuid>
+      <webElementGuid>9672a11b-32d9-49c8-9d11-dfbc09581320</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Log Out'])[2]/preceding::button[1]</value>
-      <webElementGuid>f90dd9f3-13e5-4776-9edf-4a133ce806be</webElementGuid>
+      <webElementGuid>45645f21-59ce-48ab-a60a-ed761062573d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/button</value>
-      <webElementGuid>65bc4c5f-9dad-46ef-8db8-60950bfc01a1</webElementGuid>
+      <webElementGuid>5dd85256-64a2-442d-894d-bd9994ce8e10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,6 +142,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@id = 'user' and @type = 'button']</value>
-      <webElementGuid>a3fb7af7-5dc3-44ff-a51f-ab5e1fb1769f</webElementGuid>
+      <webElementGuid>8ccb411a-29a1-47ba-90ca-c9240db7e5b1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
