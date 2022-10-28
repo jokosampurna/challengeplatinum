@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Log002 - User want to login without input email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd726a10-4501-4e38-a175-edbcdf4c1f34</testCaseGuid>
+</TestCaseEntity>

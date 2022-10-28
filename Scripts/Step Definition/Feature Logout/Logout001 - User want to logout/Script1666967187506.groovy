@@ -17,8 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Step Definition/Feature Login/Log001 - User want to login using correct credential'), [:], 
+WebUI.callTestCase(findTestCase('Step Definition/Feature Login/Log005 - User want to login using correct credential'), [:], 
     FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Page/Logut/Click btn profile user'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Page/Logut/Click logut'), [:], FailureHandling.STOP_ON_FAILURE)
 
