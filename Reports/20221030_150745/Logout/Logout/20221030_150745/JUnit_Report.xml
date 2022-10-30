@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Logout" time="31.72" tests="1" failures="0" errors="0">
+   <testsuite name="Logout" tests="1" failures="0" errors="0" time="31.72" skipped="0" timestamp="2022-10-30 15:08:04" hostname="Agung - DESKTOP-EC2DV20" id="Test Suites/Logout/Logout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Agung\\Katalon Studio\\challengeplatinum\\Reports\\20221030_150745\\Logout\\Logout\\20221030_150745"/>
+         <property name="logFiles" value="C:\\Users\\Agung\\Katalon Studio\\challengeplatinum\\Reports\\20221030_150745\\Logout\\Logout\\20221030_150745\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Agung - DESKTOP-EC2DV20"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.1.208"/>
+         <property name="browser" value="Chrome 106.0.0.0"/>
+         <property name="hostAddress" value="192.168.246.136"/>
+         <property name="sessionId" value="8a5eef515bdb5781260f26ed0dd3d9ca"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Step Definition/Feature Logout/Logout001 - User want to logout" time="30.874" classname="Test Cases/Step Definition/Feature Logout/Logout001 - User want to logout" status="PASSED">
+         <system-out><![CDATA[2022-10-30 15:08:05 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Feature Logout/Logout001 - User want to logout: Test Cases/Step Definition/Feature Logout/Logout001 - User want to logout
+
+2022-10-30 15:08:05 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Navigate to 'https://deployed-five.vercel.app/' successfully
+
+2022-10-30 15:08:05 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/Step Definition/Feature Logout/Logout001 - User want to logout
+
+2022-10-30 15:08:05 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Logout/Logout001 - User want to logout
+
+2022-10-30 15:08:05 - [TEST_STEP][PASSED] - openBrowser(): null
+
+2022-10-30 15:08:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-30 15:08:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-30 15:08:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-30 15:08:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-30 15:08:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-30 15:08:11 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-30 15:08:11 - [TEST_STEP][PASSED] - navigateToUrl("https://deployed-five.vercel.app/"): Navigate to 'https://deployed-five.vercel.app/' successfully
+
+2022-10-30 15:08:14 - [MESSAGE][PASSED] - Navigate to 'https://deployed-five.vercel.app/' successfully
+
+2022-10-30 15:08:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Step Definition/Feature Login/Log005 - User want to login using correct credential"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Step Definition/Feature Login/Log005 - User want to login using correct credential' successfully
+
+2022-10-30 15:08:15 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Feature Login/Log005 - User want to login using correct credential: Test Cases/Step Definition/Feature Login/Log005 - User want to login using correct credential
+
+2022-10-30 15:08:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Page/Login/Click Enter to Login Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Page/Login/Click Enter to Login Page' successfully
+
+2022-10-30 15:08:16 - [TEST_CASE][PASSED] - Test Cases/Page/Login/Click Enter to Login Page: Test Cases/Page/Login/Click Enter to Login Page
+
+2022-10-30 15:08:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/button_MasukHomePage")): Object: 'Object Repository/Page_Login/button_MasukHomePage' is clicked on
+
+2022-10-30 15:08:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_MasukHomePage' is clicked on
+
+2022-10-30 15:08:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Page/Login/Click Enter to Login Page' successfully
+
+2022-10-30 15:08:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Page/Login/Verify Content"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Page/Login/Verify Content' successfully
+
+2022-10-30 15:08:17 - [TEST_CASE][PASSED] - Test Cases/Page/Login/Verify Content: Test Cases/Page/Login/Verify Content
+
+2022-10-30 15:08:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/image_PageLogin")): Object 'Object Repository/Page_Login/image_PageLogin' is visible
+
+2022-10-30 15:08:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/image_PageLogin' is visible
+
+2022-10-30 15:08:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/text_Masuk")): Object 'Object Repository/Page_Login/text_Masuk' is visible
+
+2022-10-30 15:08:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/text_Masuk' is visible
+
+2022-10-30 15:08:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/text_SecondHand")): Object 'Object Repository/Page_Login/text_SecondHand' is visible
+
+2022-10-30 15:08:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/text_SecondHand' is visible
+
+2022-10-30 15:08:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/label_Email")): Object 'Object Repository/Page_Login/label_Email' is visible
+
+2022-10-30 15:08:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/label_Email' is visible
+
+2022-10-30 15:08:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/textbox_Email")): Object 'Object Repository/Page_Login/textbox_Email' is visible
+
+2022-10-30 15:08:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/textbox_Email' is visible
+
+2022-10-30 15:08:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/label_Password")): Object 'Object Repository/Page_Login/label_Password' is visible
+
+2022-10-30 15:08:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/label_Password' is visible
+
+2022-10-30 15:08:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/textbox_Password")): Object 'Object Repository/Page_Login/textbox_Password' is visible
+
+2022-10-30 15:08:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/textbox_Password' is visible
+
+2022-10-30 15:08:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Login/button_Masuk")): Object 'Object Repository/Page_Login/button_Masuk' is visible
+
+2022-10-30 15:08:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/button_Masuk' is visible
+
+2022-10-30 15:08:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Page/Login/Verify Content' successfully
+
+2022-10-30 15:08:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Page/Login/Input Email"), ["email":"binarqae1@gmail.com"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Page/Login/Input Email' successfully
+
+2022-10-30 15:08:22 - [TEST_CASE][PASSED] - Test Cases/Page/Login/Input Email: Test Cases/Page/Login/Input Email
+
+2022-10-30 15:08:23 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/textbox_Email")): Text of object 'Object Repository/Page_Login/textbox_Email' is cleared
+
+2022-10-30 15:08:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Login/textbox_Email' is cleared
+
+2022-10-30 15:08:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Login/textbox_Email"), email): Keys 'binarqae1@gmail.com' sent to object: 'Object Repository/Page_Login/textbox_Email'
+
+2022-10-30 15:08:24 - [MESSAGE][PASSED] - Keys 'binarqae1@gmail.com' sent to object: 'Object Repository/Page_Login/textbox_Email'
+
+2022-10-30 15:08:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Page/Login/Input Email' successfully
+
+2022-10-30 15:08:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Page/Login/Input Password"), ["password":"students1234"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Page/Login/Input Password' successfully
+
+2022-10-30 15:08:24 - [TEST_CASE][PASSED] - Test Cases/Page/Login/Input Password: Test Cases/Page/Login/Input Password
+
+2022-10-30 15:08:24 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/textbox_Password")): Text of object 'Object Repository/Page_Login/textbox_Password' is cleared
+
+2022-10-30 15:08:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Login/textbox_Password' is cleared
+
+2022-10-30 15:08:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Login/textbox_Password"), password): Keys 'students1234' sent to object: 'Object Repository/Page_Login/textbox_Password'
+
+2022-10-30 15:08:26 - [MESSAGE][PASSED] - Keys 'students1234' sent to object: 'Object Repository/Page_Login/textbox_Password'
+
+2022-10-30 15:08:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Page/Login/Input Password' successfully
+
+2022-10-30 15:08:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Page/Login/Click Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Page/Login/Click Login' successfully
+
+2022-10-30 15:08:26 - [TEST_CASE][PASSED] - Test Cases/Page/Login/Click Login: Test Cases/Page/Login/Click Login
+
+2022-10-30 15:08:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/button_Masuk")): Object: 'Object Repository/Page_Login/button_Masuk' is clicked on
+
+2022-10-30 15:08:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Masuk' is clicked on
+
+2022-10-30 15:08:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Page/Login/Click Login' successfully
+
+2022-10-30 15:08:27 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-10-30 15:08:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-10-30 15:08:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Step Definition/Feature Login/Log005 - User want to login using correct credential' successfully
+
+2022-10-30 15:08:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Page/Logut/Click btn profile user"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Page/Logut/Click btn profile user' successfully
+
+2022-10-30 15:08:32 - [TEST_CASE][PASSED] - Test Cases/Page/Logut/Click btn profile user: Test Cases/Page/Logut/Click btn profile user
+
+2022-10-30 15:08:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_Logout/button_profile_user")): Object: 'Object Repository/Page_Logout/button_profile_user' is clicked on
+
+2022-10-30 15:08:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Logout/button_profile_user' is clicked on
+
+2022-10-30 15:08:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Page/Logut/Click btn profile user' successfully
+
+2022-10-30 15:08:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Page/Logut/Click logut"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Page/Logut/Click logut' successfully
+
+2022-10-30 15:08:34 - [TEST_CASE][PASSED] - Test Cases/Page/Logut/Click logut: Test Cases/Page/Logut/Click logut
+
+2022-10-30 15:08:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_Logout/button_Log Out")): Object: 'Object Repository/Page_Logout/button_Log Out' is clicked on
+
+2022-10-30 15:08:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Logout/button_Log Out' is clicked on
+
+2022-10-30 15:08:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Page/Logut/Click logut' successfully
+
+2022-10-30 15:08:35 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2022-10-30 15:08:35 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/Step Definition/Feature Logout/Logout001 - User want to logout
+
+2022-10-30 15:08:35 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Logout/Logout001 - User want to logout
+
+2022-10-30 15:08:35 - [TEST_STEP][PASSED] - closeBrowser(): null
+
+2022-10-30 15:08:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-30 15:08:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-30 15:08:04 - [TEST_SUITE][PASSED] - Logout: Test Cases/Step Definition/Feature Logout/Logout001 - User want to logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

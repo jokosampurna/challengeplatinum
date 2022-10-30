@@ -1,0 +1,87 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Logout/Icon_profile",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Log Out\u0027])[1]/following::*[name()\u003d\u0027svg\u0027][1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Logout/Icon_profile_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Login/popup_Akun tidak ditemukan",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div[2]/form/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Login/popup_Akun tidak ditemukan_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Register/button masuk",
+      "brokenLocator": "//div[@id\u003d\u0027navbarText\u0027]/ul/li",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[(text() \u003d \u0027Masuk\u0027 or . \u003d \u0027Masuk\u0027)]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Register/button masuk_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Login/button_Masuk",
+      "brokenLocator": "//button[@type\u003d\u0027submit \u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Login/button_Masuk_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Login/textbox_Email",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Login/textbox_Email_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Register/button_Daftar di sini",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Register/button_Daftar di sini_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Register/input_Nama",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Register/input_Nama_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Login/button_MasukHomePage",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027navbarText\u0027]/ul/li/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Login/button_MasukHomePage_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Login/image_PageLogin",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Login/image_PageLogin_position.png"
+    }
+  ]
+}
