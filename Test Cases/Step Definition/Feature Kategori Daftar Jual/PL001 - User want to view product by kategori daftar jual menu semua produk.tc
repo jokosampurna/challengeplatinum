@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>PL001 - User want to view product for sale in Daftar Jual Saya menu Semua Produk</name>
+   <name>PL001 - User want to view product by kategori daftar jual menu semua produk</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>d7c65386-9a4b-4c67-b8ba-5184fb8bfdf1</testCaseGuid>

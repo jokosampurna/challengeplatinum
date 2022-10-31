@@ -22,7 +22,9 @@ WebUI.callTestCase(findTestCase('Step Definition/Feature Login/Log005 - User wan
 
 WebUI.callTestCase(findTestCase('Page/Daftar Jual Saya/Click Daftar Jual'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Page/Daftar Jual Saya/Click Semua Produk'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Page/Daftar Jual Saya/Click Terjual'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Page/Daftar Jual Saya/Verify Content'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementNotPresent(findTestObject('Page_Daftar Jual Saya_Semua Produk/button_TambahProduk'), 0)
+
+WebUI.delay(5)
 

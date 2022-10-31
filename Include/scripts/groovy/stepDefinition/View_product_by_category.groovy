@@ -44,25 +44,54 @@ import cucumber.api.java.en.When
 
 //JokoSampurno.QA.Wave1.Binar
 
-class View_product_for_sale {
+class View_product_by_category {
+	
+	//PL001 - Semua Product
 	@Then("call @Log001")
 	public void call_Log001() {
 		WebUI.callTestCase(findTestCase('Step Definition/Feature Login/Log005 - User want to login using correct credential'), [:],
-			FailureHandling.STOP_ON_FAILURE)
+		FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@Then("click product list")
 	public void click_product_list() {
 		WebUI.callTestCase(findTestCase('Page/Daftar Jual Saya/Click Daftar Jual'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@Then("click semua produk")
 	public void click_semua_produk() {
 		WebUI.callTestCase(findTestCase('Page/Daftar Jual Saya/Click Semua Produk'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@Then("verify element visible")
 	public void verify_element_visible() {
 		WebUI.callTestCase(findTestCase('Page/Daftar Jual Saya/Verify Content'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.delay(5)
+		WebUI.openBrowser('');
+		WebUI.maximizeWindow();
+		WebUI.navigateToUrl('https://deployed-five.vercel.app/')
+	}
+	
+	//PL002 - Diminati
+	@Then("click diminati")
+	public void click_diminati() {
+		WebUI.callTestCase(findTestCase('Page/Daftar Jual Saya/Click Diminati'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@Then("verify element not present")
+	public void verify_element_not_present() {
+		WebUI.verifyElementNotPresent(findTestObject('Page_Daftar Jual Saya_Semua Produk/button_TambahProduk'), 0)
+		WebUI.delay(5)
+		WebUI.openBrowser('');
+		WebUI.maximizeWindow();
+		WebUI.navigateToUrl('https://deployed-five.vercel.app/')
+	}
+	
+	//PL003 - Terjual
+	@Then("click terjual")
+	public void click_terjual() {
+		WebUI.callTestCase(findTestCase('Page/Daftar Jual Saya/Click Terjual'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.delay(5)
+		
 	}
 }
