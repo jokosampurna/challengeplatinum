@@ -75,7 +75,7 @@ class Register {
 	public void click_daftar() {
 		WebUI.callTestCase(findTestCase('Page/User Register/Click Daftar'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@Then("verify email")
 	public void verify_email() {
 		WebUI.callTestCase(findTestCase('Page/User Register/Verify email'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -84,7 +84,7 @@ class Register {
 		WebUI.maximizeWindow();
 		WebUI.navigateToUrl('https://deployed-five.vercel.app/')
 	}
-	
+
 	//Reg002 - User want to register using incorrect credential
 	@Then("input nama2")
 	public void input_nama2() {
@@ -104,7 +104,7 @@ class Register {
 		WebUI.maximizeWindow();
 		WebUI.navigateToUrl('https://deployed-five.vercel.app/')
 	}
-	
+
 	//Reg003 - User want to register using email already exists
 	@Then("input nama3")
 	public void input_nama3() {
@@ -120,7 +120,7 @@ class Register {
 	public void input_password3() {
 		WebUI.callTestCase(findTestCase('Page/User Register/Input Password'), [('password') : 'student1234'], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@Then("verify email already exists")
 	public void verify_email_already_exists() {
 		WebUI.callTestCase(findTestCase('Page/User Register/verify email already exists'), [:], FailureHandling.STOP_ON_FAILURE)
