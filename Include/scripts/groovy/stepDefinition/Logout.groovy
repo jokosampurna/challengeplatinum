@@ -44,30 +44,15 @@ import cucumber.api.java.en.When
 
 
 
-class Login {
-	@Then("input email")
-	public void input_email() {
-		WebUI.callTestCase(findTestCase('Page/Login/Input Email'), [('email') : 'binarqae1@gmail.com'], FailureHandling.STOP_ON_FAILURE)
+class Logout {
+	@Then("click button profile user")
+	public void click_button_profile_user() {
+		WebUI.callTestCase(findTestCase('Page/Logut/Click btn profile user'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@Then("input password")
-	public void input_password() {
-		WebUI.callTestCase(findTestCase('Page/Login/Input Password'), [('password') : 'students1234'], FailureHandling.STOP_ON_FAILURE)
-	}
 
-	@Then("click masuk")
-	public void click_masuk() {
-		WebUI.callTestCase(findTestCase('Page/Login/Click Login'), [:], FailureHandling.STOP_ON_FAILURE)
-		WebUI.delay(5)
-	}
-
-	@Then("input incorrect email")
-	public void input_incorrect_email() {
-		WebUI.callTestCase(findTestCase('Page/Login/Input Email'), [('email') : 'makanmalam@gmail.com'], FailureHandling.STOP_ON_FAILURE)
-	}
-
-	@Then("input incorrect password")
-	public void input_incorrect_password() {
-		WebUI.callTestCase(findTestCase('Page/Login/Input Password'), [('password') : '12345'], FailureHandling.STOP_ON_FAILURE)
-	}
+	@Then("click button logout")
+	public void click_button_logout() {
+		WebUI.callTestCase(findTestCase('Page/Logut/Click logut'), [:], FailureHandling.STOP_ON_FAILURE)
+}
 }

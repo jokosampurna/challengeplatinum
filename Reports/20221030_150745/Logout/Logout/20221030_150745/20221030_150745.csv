@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Logout,Chrome 106.0.0.0,,,2022-10-30 15:08:04,2022-10-30 15:08:36,31.720s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Feature Logout/Logout001 - User want to logout,Chrome 106.0.0.0,,,2022-10-30 15:08:05,2022-10-30 15:08:36,30.874s,PASSED
+Start listener action : beforeTestCase,Chrome 106.0.0.0,,,2022-10-30 15:08:05,2022-10-30 15:08:14,8.418s,PASSED
+"callTestCase(findTestCase(""Step Definition/Feature Login/Log005 - User want to login using correct credential""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 15:08:15,2022-10-30 15:08:32,17.267s,PASSED
+"callTestCase(findTestCase(""Page/Logut/Click btn profile user""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 15:08:32,2022-10-30 15:08:34,1.934s,PASSED
+"callTestCase(findTestCase(""Page/Logut/Click logut""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 15:08:34,2022-10-30 15:08:35,1.165s,PASSED
+Start listener action : afterTestCase,Chrome 106.0.0.0,,,2022-10-30 15:08:35,2022-10-30 15:08:36,0.894s,PASSED

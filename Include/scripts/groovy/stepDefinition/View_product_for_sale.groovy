@@ -47,7 +47,7 @@ import cucumber.api.java.en.When
 class View_product_for_sale {
 	@Then("call @Log001")
 	public void call_Log001() {
-		WebUI.callTestCase(findTestCase('Step Definition/Feature Login/Log001 - User want to login using correct credential'), [:],
+		WebUI.callTestCase(findTestCase('Step Definition/Feature Login/Log005 - User want to login using correct credential'), [:],
 			FailureHandling.STOP_ON_FAILURE)
 	}
 	

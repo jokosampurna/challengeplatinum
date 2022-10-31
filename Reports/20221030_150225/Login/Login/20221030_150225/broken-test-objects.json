@@ -1,0 +1,13 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Login/popup_Akun tidak ditemukan",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div[2]/form/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20221030_150225/Login/Login/20221030_150225/Object Repository/Page_Login/popup_Akun tidak ditemukan_XPATH.png"
+    }
+  ]
+}

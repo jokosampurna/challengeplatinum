@@ -1,0 +1,52 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 106.0.0.0,,,2022-10-30 15:02:58,2022-10-30 15:06:24,3m - 26.914s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Feature Login/Log001 - User want to login using incorrect credential,Chrome 106.0.0.0,,,2022-10-30 15:02:58,2022-10-30 15:03:41,42.520s,PASSED
+Start listener action : beforeTestCase,Chrome 106.0.0.0,,,2022-10-30 15:02:58,2022-10-30 15:03:17,18.363s,PASSED
+"callTestCase(findTestCase(""Page/Login/Click Enter to Login Page""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 15:03:18,2022-10-30 15:03:22,4.432s,PASSED
+"callTestCase(findTestCase(""Page/Login/Verify Content""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 15:03:22,2022-10-30 15:03:27,5.023s,PASSED
+"callTestCase(findTestCase(""Page/Login/Input Email""), [""email"":""makanmalam@gmail.com""], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 15:03:27,2022-10-30 15:03:29,2.006s,PASSED
+"callTestCase(findTestCase(""Page/Login/Input Password""), [""password"":""12345""], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 15:03:29,2022-10-30 15:03:31,1.970s,PASSED
+"callTestCase(findTestCase(""Page/Login/Click Login""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 15:03:31,2022-10-30 15:03:33,1.715s,PASSED
+"callTestCase(findTestCase(""Page/Login/Verify Account""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 15:03:33,2022-10-30 15:03:35,1.616s,PASSED
+delay(5),Chrome 106.0.0.0,,,2022-10-30 15:03:35,2022-10-30 15:03:40,5.047s,PASSED
+Start listener action : afterTestCase,Chrome 106.0.0.0,,,2022-10-30 15:03:40,2022-10-30 15:03:41,1.196s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Feature Login/Log002 - User want to login without input email,Chrome 106.0.0.0,,,2022-10-30 15:03:41,2022-10-30 15:04:30,48.985s,PASSED
+Start listener action : beforeTestCase,Chrome 106.0.0.0,,,2022-10-30 15:03:41,2022-10-30 15:03:49,7.612s,PASSED
+"callTestCase(findTestCase(""Page/Login/Click Enter to Login Page""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 15:03:50,2022-10-30 15:03:52,1.619s,PASSED
+"callTestCase(findTestCase(""Page/Login/Verify Content""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 15:03:52,2022-10-30 15:03:55,3.531s,PASSED
+"callTestCase(findTestCase(""Page/Login/Input Password""), [""password"":""students1234""], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 15:03:55,2022-10-30 15:03:56,1.142s,PASSED
+"callTestCase(findTestCase(""Page/Login/Click Login""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 15:03:56,2022-10-30 15:03:57,0.810s,PASSED
+"callTestCase(findTestCase(""Page/Login/Verify Account""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 15:03:57,2022-10-30 15:04:29,31.846s,PASSED
+delay(0),Chrome 106.0.0.0,,,2022-10-30 15:04:29,2022-10-30 15:04:29,0.004s,PASSED
+Start listener action : afterTestCase,Chrome 106.0.0.0,,,2022-10-30 15:04:29,2022-10-30 15:04:30,0.899s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Feature Login/Log003 - User want to login without input password,Chrome 106.0.0.0,,,2022-10-30 15:04:30,2022-10-30 15:05:17,47.097s,PASSED
+Start listener action : beforeTestCase,Chrome 106.0.0.0,,,2022-10-30 15:04:30,2022-10-30 15:04:35,5.241s,PASSED
+"callTestCase(findTestCase(""Page/Login/Click Enter to Login Page""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 15:04:36,2022-10-30 15:04:38,2.018s,PASSED
+"callTestCase(findTestCase(""Page/Login/Verify Content""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 15:04:38,2022-10-30 15:04:42,4.074s,PASSED
+"callTestCase(findTestCase(""Page/Login/Input Email""), [""email"":""binarqae1@gmail.com""], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 15:04:42,2022-10-30 15:04:44,1.143s,PASSED
+"callTestCase(findTestCase(""Page/Login/Click Login""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 15:04:44,2022-10-30 15:04:44,0.767s,PASSED
+"callTestCase(findTestCase(""Page/Login/Verify Account""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 15:04:44,2022-10-30 15:05:16,31.851s,PASSED
+delay(0),Chrome 106.0.0.0,,,2022-10-30 15:05:16,2022-10-30 15:05:16,0.004s,PASSED
+Start listener action : afterTestCase,Chrome 106.0.0.0,,,2022-10-30 15:05:16,2022-10-30 15:05:17,0.917s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Feature Login/Log004 - User want to login without input user name and password,Chrome 106.0.0.0,,,2022-10-30 15:05:17,2022-10-30 15:06:03,45.534s,PASSED
+Start listener action : beforeTestCase,Chrome 106.0.0.0,,,2022-10-30 15:05:17,2022-10-30 15:05:22,5.080s,PASSED
+"callTestCase(findTestCase(""Page/Login/Click Enter to Login Page""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 15:05:23,2022-10-30 15:05:25,2.148s,PASSED
+"callTestCase(findTestCase(""Page/Login/Verify Content""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 15:05:25,2022-10-30 15:05:29,3.760s,PASSED
+"callTestCase(findTestCase(""Page/Login/Click Login""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 15:05:29,2022-10-30 15:05:30,0.706s,PASSED
+"callTestCase(findTestCase(""Page/Login/Verify Account""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 15:05:30,2022-10-30 15:06:02,31.921s,PASSED
+delay(0),Chrome 106.0.0.0,,,2022-10-30 15:06:02,2022-10-30 15:06:02,0.004s,PASSED
+Start listener action : afterTestCase,Chrome 106.0.0.0,,,2022-10-30 15:06:02,2022-10-30 15:06:03,0.996s,PASSED
+,,,,,,,
+Test Cases/Step Definition/Feature Login/Log005 - User want to login using correct credential,Chrome 106.0.0.0,,,2022-10-30 15:06:03,2022-10-30 15:06:24,21.741s,PASSED
+Start listener action : beforeTestCase,Chrome 106.0.0.0,,,2022-10-30 15:06:03,2022-10-30 15:06:08,5.410s,PASSED
+"callTestCase(findTestCase(""Page/Login/Click Enter to Login Page""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 15:06:09,2022-10-30 15:06:11,2.033s,PASSED
+"callTestCase(findTestCase(""Page/Login/Verify Content""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 15:06:11,2022-10-30 15:06:15,3.836s,PASSED
+"callTestCase(findTestCase(""Page/Login/Input Email""), [""email"":""binarqae1@gmail.com""], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 15:06:15,2022-10-30 15:06:17,1.560s,PASSED
+"callTestCase(findTestCase(""Page/Login/Input Password""), [""password"":""students1234""], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 15:06:17,2022-10-30 15:06:18,1.054s,PASSED
+"callTestCase(findTestCase(""Page/Login/Click Login""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 15:06:18,2022-10-30 15:06:18,0.759s,PASSED
+delay(5),Chrome 106.0.0.0,,,2022-10-30 15:06:18,2022-10-30 15:06:23,5.004s,PASSED
+Start listener action : afterTestCase,Chrome 106.0.0.0,,,2022-10-30 15:06:23,2022-10-30 15:06:24,1.094s,PASSED
