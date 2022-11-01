@@ -42,56 +42,43 @@ import cucumber.api.java.en.Given
 import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
-//JokoSampurno.QA.Wave1.Binar
+// FathRamamadhan.QA.Wave1.Binar
 
-class View_product_by_category {
-
-	//PL001 - Semua Product
-	@Then("call @Log001")
-	public void call_Log001() {
-		WebUI.callTestCase(findTestCase('Step Definition/Feature Login/Log005 - User want to login using correct credential'), [:],
-		FailureHandling.STOP_ON_FAILURE)
+class Search_by_category {
+	@Then("click button Semua")
+	public void click_button_Semua() {
+		WebUI.callTestCase(findTestCase('Page/User Search by Category/Click Semua'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.delay(7)
 	}
 
-	@Then("click product list")
-	public void click_product_list() {
-		WebUI.callTestCase(findTestCase('Page/Daftar Jual Saya/Click Daftar Jual'), [:], FailureHandling.STOP_ON_FAILURE)
+	@Then("click button Hoby")
+	public void click_button_Hoby() {
+	WebUI.callTestCase(findTestCase('Page/User Search by Category/Click Hoby'), [:], FailureHandling.STOP_ON_FAILURE)
+	WebUI.delay(7)
 	}
 
-	@Then("click semua produk")
-	public void click_semua_produk() {
-		WebUI.callTestCase(findTestCase('Page/Daftar Jual Saya/Click Semua Produk'), [:], FailureHandling.STOP_ON_FAILURE)
+	@Then("click button Kendaraan")
+	public void click_button_Kendaraan() {
+	WebUI.callTestCase(findTestCase('Page/User Search by Category/Click Kendaraan'), [:], FailureHandling.STOP_ON_FAILURE)
+	WebUI.delay(7)
 	}
 
-	@Then("verify element visible")
-	public void verify_element_visible() {
-		WebUI.callTestCase(findTestCase('Page/Daftar Jual Saya/Verify Content'), [:], FailureHandling.STOP_ON_FAILURE)
-		WebUI.delay(5)
-		WebUI.openBrowser('');
-		WebUI.maximizeWindow();
-		WebUI.navigateToUrl('https://deployed-five.vercel.app/')
+	@Then("click button Baju")
+	public void click_button_Baju() {
+	WebUI.callTestCase(findTestCase('Page/User Search by Category/Click Baju'), [:], FailureHandling.STOP_ON_FAILURE)
+	WebUI.delay(7)
 	}
 
-	//PL002 - Diminati
-	@Then("click diminati")
-	public void click_diminati() {
-		WebUI.callTestCase(findTestCase('Page/Daftar Jual Saya/Click Diminati'), [:], FailureHandling.STOP_ON_FAILURE)
+	@Then("click button Elektronik")
+	public void click_button_Elektronik() {
+	WebUI.callTestCase(findTestCase('Page/User Search by Category/Click Elektronik'), [:], FailureHandling.STOP_ON_FAILURE)
+	WebUI.delay(7)
 	}
 
-	@Then("verify element not present")
-	public void verify_element_not_present() {
-		WebUI.verifyElementNotPresent(findTestObject('Page_Daftar Jual Saya_Semua Produk/button_TambahProduk'), 0)
-		WebUI.delay(5)
-		WebUI.openBrowser('');
-		WebUI.maximizeWindow();
-		WebUI.navigateToUrl('https://deployed-five.vercel.app/')
-	}
-
-	//PL003 - Terjual
-	@Then("click terjual")
-	public void click_terjual() {
-		WebUI.callTestCase(findTestCase('Page/Daftar Jual Saya/Click Terjual'), [:], FailureHandling.STOP_ON_FAILURE)
-		WebUI.delay(5)
-
+	@Then("click button Kesehatan")
+	public void click_button_Kesehatan() {
+	WebUI.callTestCase(findTestCase('Page/User Search by Category/Click Kesehatan'), [:], FailureHandling.STOP_ON_FAILURE)
+	WebUI.delay(5)
+	
 	}
 }
